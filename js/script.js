@@ -57,7 +57,7 @@ console.log(InputMail);
 // Execise D
 
 const filaJs = document.querySelectorAll('td')[2];
-console.log(filaJs);
+console.log(filaJs.innerText);
 
 
 /*
@@ -68,8 +68,8 @@ console.log(filaJs);
 
 // Excercise E
 
-const celdaCSS = document.querySelector('tr')[3];
-console.log(celdaCSS);
+const celdaCSS = document.querySelectorAll('tr')[3];
+console.log(celdaCSS.innerText);
 
 
 /*
