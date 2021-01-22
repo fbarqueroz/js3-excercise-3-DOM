@@ -16,7 +16,7 @@
   es una lista"
 */
 
-// Codigo ejercicio 1
+// excercise A
 
 const excerciseOne = document.querySelector('h3');
 console.log(excerciseOne.innerText);
@@ -28,6 +28,14 @@ console.log(excerciseOne.innerText);
   de la lista
 */
 
+// excercise B
+
+const firstElement = document.querySelectorAll('li')[0];
+console.log(firstElement);
+
+const lastElement = document.querySelectorAll('li')[3];
+console.log(lastElement);
+
 /*
   EJERCICIO C: --------------------------------------------
   
@@ -35,17 +43,34 @@ console.log(excerciseOne.innerText);
   formulario
 */
 
+//Excercise C
+
+const InputMail = document.querySelector("input[type='email']");
+console.log(InputMail);
+
 /*
   EJERCICIO D: --------------------------------------------
   
   Selecciona y loguea la fila de la tabla que tiene "JavaScript"
 */
 
+// Execise D
+
+const filaJs = document.querySelectorAll('td')[2];
+console.log(filaJs);
+
+
 /*
   EJERCICIO E: --------------------------------------------
   
   Selecciona y loguea la celda que dice CSS
 */
+
+// Excercise E
+
+const celdaCSS = document.querySelector('tr')[3];
+console.log(celdaCSS);
+
 
 /*
   EJERCICIO F: --------------------------------------------
